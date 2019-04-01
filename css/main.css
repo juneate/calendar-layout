@@ -1,0 +1,19 @@
+.weekly-byhour {
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(96, 1fr); /* 15min intervals */
+    grid-gap: 1px;
+}
+.calendar li {
+    background-color: white;
+}
+.yt {
+    background-color: var(--ytcol);
+}
+.tw {
+    background-color: blueviolet;
+}
